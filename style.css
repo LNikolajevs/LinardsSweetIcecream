@@ -1,4 +1,86 @@
-html {
-  height: 100%;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background-color: #ffb6c1;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d96c85;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #f08fa4;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    color: #b33050;
+}
+
+h2 {
+    font-size: 28px;
+    color: #8d1d3f;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 18px;
+    color: #5a0f29;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+.button {
+    background-color: #b33050;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #8d1d3f;
+}
+
+footer {
+    background-color: #d96c85;
+    padding: 15px;
+    color: white;
+    margin-top: 30px;
 }
